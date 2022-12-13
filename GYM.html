@@ -1,0 +1,283 @@
+# GYM-
+This is the GYM website from  the web development
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="stylesheet" />
+    <link rel="stylesheet" href="registrationstyle.css" class="stylesheet">
+
+    <!-- Link to the Font awesome website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <div class="topnav">
+      <ul>
+        <li><a href="#about">Gallery</a></li>
+        <li>
+          <a href="#about"><i class="fa-regular fa-hat-chef"></i> Nutrition</a>
+        </li>
+        <li>
+          <a href="#contact"
+            ><i class="fa-solid fa-memo-circle-info"></i>Time Table</a
+          >
+        </li>
+        <li>
+          <a href="#news">Trainings</a>
+        </li>
+        <li>
+          <a class="active" href="#home"
+            > About</a
+          >
+        </li>
+        <li style="float: left">
+          <a class="active" href="#home">Fitness Club</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header">
+      <div class="text">
+        <h1>Fitness Gym</h1>
+      </div>
+      </div>
+      <div class="div-register">
+        
+
+          <div class="container">
+            <form method="post" autocomplete="on" action="mailto:abhaypatel27203@gmail.com">
+              <!--First name-->
+              <div class="box">
+                <label for="firstName" class="fl fontLabel"> First Name: </label>
+                <div class="new iconBox">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="fr">
+                  <input
+                    type="text"
+                    name="firstName"
+                    placeholder="First Name"
+                    class="textBox"
+                    autofocus="on"
+                    required
+                  />
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!--First name-->
+      
+              <!--Second name-->
+              <div class="box">
+                <label for="secondName" class="fl fontLabel"> Seconed Name: </label>
+                <div class="fl iconBox">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="fr">
+                  <input
+                    type="text"
+                    required
+                    name="secondName"
+                    placeholder="Last Name"
+                    class="textBox"
+                  />
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!--Second name-->
+      
+              <!---Phone No.------>
+              <div class="box">
+                <label for="phone" class="fl fontLabel"> Phone No.: </label>
+                <div class="fl iconBox">
+                  <i class="fa fa-phone-square" aria-hidden="true"></i>
+                </div>
+                <div class="fr">
+                  <input
+                    type="text"
+                    required
+                    name="phoneNo"
+                    maxlength="10"
+                    placeholder="Phone No."
+                    class="textBox"
+                  />
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!---Phone No.---->
+      
+              <!---Email ID---->
+              <div class="box">
+                <label for="email" class="fl fontLabel"> Email ID: </label>
+                <div class="fl iconBox">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="fr">
+                  <input
+                    type="email"
+                    required
+                    name="email"
+                    placeholder="Email Id"
+                    class="textBox"
+                  />
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!--Email ID----->
+      
+              <!---Password------>
+              <div class="box">
+                <label for="password" class="fl fontLabel"> Password </label>
+                <div class="fl iconBox">
+                  <i class="fa fa-key" aria-hidden="true"></i>
+                </div>
+                <div class="fr">
+                  <input
+                    type="Password"
+                    required
+                    name="password"
+                    placeholder="Password"
+                    class="textBox"
+                  />
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!---Password---->
+      
+              <!---Gender----->
+              <div class="box radio">
+                <label for="gender" class="fl fontLabel"> Gender: </label>
+                <input type="radio" name="Gender" value="Male" required /> Male &nbsp;
+                &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="Gender" value="Female" required /> Female
+              </div>
+              <!---Gender--->
+      
+              <!--Terms and Conditions------>
+              <div class="box terms">
+                <input type="checkbox" name="Terms" required /> &nbsp; I accept the
+                terms and conditions
+              </div>
+              <!--Terms and Conditions------>
+      
+              <!---Submit Button------>
+              <div class="box" style="background: #2d3e4f">
+                <input type="Submit" name="Submit" class="submit" value="SUBMIT" />
+              </div>
+              <!---Submit Button----->
+            </form>
+      </div>
+    </div>
+    
+    <section class="welcome">
+      <div class="welcome-text">
+        <h1>Welcome</h1>
+        <h3>Here we shape the hero of the future. Come train with us and be the Future Hero.</h3>
+       </div>
+      <div class="content1">
+        <img class="img1" src="./Image/pexels-andrea-piacquadio-863926.jpg" alt="">
+        <img class="img1" src="./Image/pexels-cottonbro-studio-4761788.jpg" alt="">
+        <img class="img1" src="./Image/people.jpeg" alt="">
+      </div>
+      <div class="poster">
+        <div class="poster1">
+          <img class="motivation" src="./Image/OIP.jpeg" alt="">
+        </div>
+        <div class="video">
+          <video width="700px" height="300px" controls>
+            <source src="./Image/Video/pexels-rodnae-productions-6540308.mp4">
+          </video>
+        </div>
+      </div>
+      <div class="content2">
+        <img class="img1" src="./Image/pexels-kate-trysh-4090012.jpg" alt="">
+        <img class="img1" src="./Image/pexels-monstera-5384564.jpg" alt="">
+        <img class="img1" src="./Image/pexels-jessy-mesme-14524649.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="story1">
+        <h1> ABOUT</h1>
+        <h2>Fitness – Bodybuilding – Powerlifting</h2>
+        <h4 class="content">
+          Working out and energy drinks are like a holy matrimony. You just can’t have one and miss out on the other for similar kind of results. If you have been depending on the store bought energy drinks, it is time to make a quick switch to the homemade energy drinks for gym. These not just have better impacts on the overall body but helps you achieve better results following the workout session.
+        </h4>
+      </div>
+      <div class="image">
+        <img class="img1" src="./Image/pexels-andrea-piacquadio-863926.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="advantages">
+      <h1 class="ad-header">OUR ADVANTAGES</h1>
+      <div class="f-list">
+      <div class="features">
+        <h2>Quallified Trainers</h2>
+        <p>We're sure that one time or another, you've been fascinated at how a trainer facilitates class and engages learners. You've also most likely observed some of the best qualities of a good trainer and already somewhat have an idea of what attributes make a trainer great at their work.</p>
+      </div>
+      <div class="features">
+        <h2>Individual Training</h2>
+        <p>A personal trainer is an individual certified to have a varying degree of knowledge of general fitness involved in exercise prescription and instruction. They motivate clients by setting goals and providing feedback and accountability to clients.</p>
+      </div>
+      <div class="features">
+        <h2>Multiple Classes</h2>
+        <p>We provides multiple classes to our clients to our Zumba, Aerobics, Kickboxing, Strength, Poer Yoga, Free weight.</p>
+      </div>
+      <div class="features">
+        <h2>Hightech GYM</h2>
+        <p>Monitoring performance during the one-hour workout, from wearable devices to projection screens, which help in getting solidity from long slogans on cardio devices, make use of modern technology to enhance the experience of today's gym exercise.</p>
+      </div>
+      <div class="features">
+        <h2>Men and Women changing Rooms</h2>
+        <p>We have a facilities for the seperate room for the changing of the Men and Women changing rooms.</p>
+      </div>
+      <div class="features">
+        <h2>Complimentary Drinks</h2>
+        <p>We believe working out and energy drinks are like a holy matrimony. You just can’t have one and miss out on the other for similar kind of results. If you have been depending on the store bought energy drinks, it is time to make a quick switch to the homemade energy drinks for gym. These not just have better impacts on the overall body but helps you achieve better results following the workout session.</p>
+      </div>
+      </div>
+    </section>
+
+    <section class="friends">
+      <div class="first">
+        <i class="fa-sharp fa-solid fa-people-group fa-solid1"></i>
+        <h1>272K</h1>
+        <h3>MEMBERS</h3>
+      </div>
+      <div class="first">
+        <i class="fa-solid fa-square-check fa-solid1"></i>
+        <h1>200+</h1>
+        <h3>TRAINERS</h3>
+      </div>
+      <div class="first">
+        <i class="fa-solid fa-bag-shopping fa-solid1"></i>
+        <h1>40</h1>
+        <h3>BRANCHES</h3>
+      </div>
+      <div class="first">
+        <i class="fa-sharp fa-solid fa-people-group fa-solid1"></i>
+        <h1>10+</h1>
+        <h3>AWARDS</h3>
+      </div>
+    </section>
+
+    <section class="Footer-section">
+      <div class="media-link">
+          <h4><a class="channels" href="https://www.linkedin.com/in/seerat-kaur-99109424b/" target=_blank"><i class="fa-brands fa-linkedin media"></i></a></h4>
+          <h4><a class="channels" href="https://www.instagram.com/iam.nirajjha/" target="_blank"><i class="fa-brands fa-instagram media"></i></a></h4>
+          <h4><a class="channels" href="https://twitter.com/NirajJh80472344" target=_blank"><i class="fa-brands fa-twitter media"></i></a></h4>
+          <h4><a class="channels" href="https://www.facebook.com/jhaniraj3110/" target=_blank"><i class="fa-brands fa-facebook media"></i></a></h4>
+      </div>
+      <div class="copyright">
+          <h6>@copyright <span class="name">FITNESS GYM</span></h6>
+          <h5>Made with <i class="fa-solid fa-heart heart"></i> by <span class="name">Abhay, Seerat and Sneha</span></h5>
+      </div>
+      <div class="arrow">
+          <h2 class="top"><a href="#navbar"><i class="fa-solid fa-arrow-up"></i></a></h2>
+      </div>
+  </section>
+  </body>
+</html>
